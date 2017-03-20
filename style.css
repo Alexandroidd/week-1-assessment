@@ -1,0 +1,73 @@
+
+header {
+	background: blue; 
+    background: -webkit-linear-gradient(#4F7ca2, #326189); 
+    background: -o-linear-gradient(#4F7ca2, #326189); 
+    background: -moz-linear-gradient(#4F7ca2, #326189); 
+    background: linear-gradient(r#4F7ca2, #326189); 
+    height: 300px;
+    /*position: absolute;
+    top:0;*/
+    width: 100%;
+   /*z-index: -1;*/
+
+}
+.container:before
+.container:after {
+	content: "";
+	display: table;
+}
+.container:after {
+	clear:both;
+}
+.container {
+	clear: both;
+	*zoom: 1;
+	margin-top: -5%;
+}
+}
+#phones {
+	
+	/*position: relative;
+	left: 10%;
+	top: 100px;*/
+	
+	
+}
+#igLogo {
+}
+#homeLogo {
+	padding: 5% 0;
+	float: right;
+}
+#leftColumn {
+	width:40%;
+	float: left;
+}
+#rightColumn {
+	width: 60%;
+	float: right;
+	height: 516px;
+}
+footer {
+	/*position: fixed;
+	bottom: 0;*/
+	float:left;
+	width: 100%;
+	text-align: center;
+}
+
+footer ul {
+	/*position: fixed;
+	bottom: 0;*/
+	float:left;
+	width: 100%;
+	list-style-type: none;
+	vertical-align: bottom;
+}
+footer li {
+	display: inline-block;
+	margin: 10px;	
+}
+.alignHelper: {
+}
