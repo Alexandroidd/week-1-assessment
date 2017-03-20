@@ -51,9 +51,10 @@ header {
 }
 
 #rightColumn {
-	width: 55%;
+	width: 50%;
 	float: right;
 	height: 516px;
+	padding-right: 10%;
 	
 
 }
