@@ -24,6 +24,8 @@ header {
 	clear: both;
 	*zoom: 1;
 	margin-top: -5%;
+	width: 80%;
+	text-align: center;
 }
 }
 #phones {
@@ -48,6 +50,11 @@ header {
 	width: 60%;
 	float: right;
 	height: 516px;
+
+}
+#badges img {
+
+
 }
 footer {
 	/*position: fixed;
