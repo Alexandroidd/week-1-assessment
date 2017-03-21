@@ -6,17 +6,15 @@ header {
     background: -moz-linear-gradient(#4F7ca2, #326189); 
     background: linear-gradient(r#4F7ca2, #326189); 
     height: 300px;
-    /*position: absolute;
-    top:0;*/
     width: 100%;
    	margin: 0 auto;
-   /*z-index: -1;*/
+  
 
 }
 body {
 	margin: 0 auto;
 	text-align: center;
-}
+} 					/*ClearFix*/
 .container:before
 .container:after {
 	content: "";
@@ -31,19 +29,7 @@ body {
 	margin-top: -12%;
 	width: 80%;
 	margin-left: auto;
-	margin-right: auto;
-	/*text-align: center;*/
-}
-}
-#phones {
-	
-	/*position: relative;
-	left: 10%;
-	top: 100px;*/
-	
-	
-}
-#igLogo {
+	margin-right: auto;	
 }
 #homeLogo {
 	padding: 5% 0;
@@ -51,21 +37,15 @@ body {
 }
 #leftColumn {
 	width:40%;
-	float: left;
-	
+	float: left;	
 }
-
 #rightColumn {
 	width: 50%;
 	float: right;
 	height: 516px;
 	padding-right: 10%;
-	
-
 }
-#badges img {
-}
-h2 {
+h2 {					/*Top text of paragraph*/
 	color: #326189;
 	text-align: left;
 	margin-top: 10%;
@@ -74,7 +54,7 @@ h2 {
 
 }
 h4 {
-	text-align: left;
+	text-align: left;			/*Smaller text*/
 	text-decoration: none;
 	font-family: arial;
 	font-weight: 300;
@@ -88,14 +68,12 @@ h4 {
 	height:284px;
 	box-shadow-top: 2px rgba(0, 0, 0, 0.3);
 	padding: 5%;
-	background-color: white;
+	background-color: white; /* linear gradient box did not work as expcted + box shadow-unpredictable*/
 	background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.89) 50%, rgba(255,255,255,0.89) 51%, rgba(255,255,255,0.79) 99%, rgba(255,255,255,0.79) 100%);
 	background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.89) 50%, rgba(255,255,255,0.89) 51%, rgba(255,255,255,0.79) 99%, rgba(255,255,255,0.79) 100%);
 	background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.89) 50%, rgba(255,255,255,0.89) 51%, rgba(255,255,255,0.79) 99%, rgba(255,255,255,0.79) 100%); /* Chrome10-25,Safari5.1-6 */
 }
 footer {
-	/*position: fixed;
-	bottom: 0;*/
 	float:left;
 	width: 100%;
 	text-align: center;
@@ -103,8 +81,6 @@ footer {
 }
 
 footer ul {
-	/*position: fixed;
-	bottom: 0;*/
 	float:left;
 	width: 100%;
 	list-style-type: none;
@@ -114,5 +90,4 @@ footer li {
 	display: inline-block;
 	margin: 10px;	
 }
-.alignHelper: {
 }
