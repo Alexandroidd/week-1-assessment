@@ -31,10 +31,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;	
 }
-#homeLogo {
-	padding: 5% 0;
-	float: right;
-}
+
 #leftColumn {
 	width:40%;
 	float: left;	
@@ -45,10 +42,23 @@ body {
 	height: 516px;
 	padding-right: 10%;
 }
+#button {
+	background: blue; 
+    background: -webkit-linear-gradient(#4F7ca2, #326189); 
+    background: -o-linear-gradient(#4F7ca2, #326189); 
+    background: -moz-linear-gradient(#4F7ca2, #326189); 
+    background: linear-gradient(r#4F7ca2, #326189); 
+    text-align: right;
+    border: solid rgba(0,0,0, .3) .5px;
+    position: relative;
+    bottom: 8px;
+
+    
+}
 h2 {					/*Top text of paragraph*/
 	color: #326189;
 	text-align: left;
-	margin-top: 10%;
+	margin-top: 20px;
 	font-family: arial;
 		display: block;
 
@@ -59,15 +69,23 @@ h4 {
 	font-family: arial;
 	font-weight: 300;
 	line-height: 150%;
-		display: block;
+	display: block;
+	font-size: 15px;
 
 	
 }
+a, .copyright{
+	color: #326189;
+	text-decoration: none;
+}
+
 #text {
-	width: 100%;
+	width: 80%;
 	height:284px;
-	box-shadow-top: 2px rgba(0, 0, 0, 0.3);
-	padding: 5%;
+ 	box-shadow: 0px 0px 1px -5px rgba(0,0,0,0.5);
+	padding: 5% 30px 5% 30px;
+	margin-top: 15px;
+	margin-left: 20px;
 	background-color: white; /* linear gradient box did not work as expcted + box shadow-unpredictable*/
 	background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.89) 50%, rgba(255,255,255,0.89) 51%, rgba(255,255,255,0.79) 99%, rgba(255,255,255,0.79) 100%);
 	background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.89) 50%, rgba(255,255,255,0.89) 51%, rgba(255,255,255,0.79) 99%, rgba(255,255,255,0.79) 100%);
@@ -90,4 +108,32 @@ footer li {
 	display: inline-block;
 	margin: 10px;	
 }
+
+#badges {
+	position: relative;
+	top: 30px;
+}
+
+#logIn {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 10px;
+	
+}
+
+#homeLogo {
+	float:left;
+	padding: 5px;
+
+}
+
+#igLogo {
+	width: 60%;
+	margin-right: 20px;
+	padding-right: 20px;
+	align-content: left;
 }
